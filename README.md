@@ -1,6 +1,6 @@
-# odin-recipes
+# Odin-Recipes
 Basic recipe website
 
-# Practice
+# Practicing
 HTML
 CSS
