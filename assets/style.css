@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* MENU */
+ul.main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.main-menu li {
+    float: left;
+}
+
+.main-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-menu li a:hover {
+    color: #52ACFF
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #52ACFF;
+    background-image: linear-gradient(90deg, #52ACFF 50%, #FFE32C 50%);
+
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.recipe-container {
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-around;
+}
+
+.recipe-content-container {
+    max-width: 400px;
+}
+
+.recipe-image-container {
+    text-align: center;
+}
+
+.card {
+    border: 3px solid black;
+    height: 501px;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.card:hover {
+    border-radius: 25px;
+}
+
+.food-image:hover {
+    border-radius: 22px;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #000
+}
+
+
+.card .food-image {
+    width: 300px;
+    height: 300px;
+}
